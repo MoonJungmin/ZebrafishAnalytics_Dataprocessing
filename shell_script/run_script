@@ -1,0 +1,12 @@
+#!/bin/bash
+
+for elem in $(seq -w 1 16)
+#for elem in $(seq -w 5 16)
+#for elem in $(seq -w 2 16)
+do
+	#ssh ib$elem bash $1 & 
+	#ssh emerald$elem bash $1
+	#echo ssh ib$elem bash $1  
+	ssh ib$elem bash $1  
+	# break
+done
